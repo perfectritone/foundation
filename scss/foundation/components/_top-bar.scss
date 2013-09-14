@@ -423,6 +423,7 @@ $topbar-arrows: true !default; //Set false to remove the triangle icon from the 
         width: auto;
         height: auto !important;
         display: inline;
+        background: transparent;
 
         li {
           float: $default-float;
@@ -440,7 +441,7 @@ $topbar-arrows: true !default; //Set false to remove the triangle icon from the 
         a:not(.button) {
           padding: 0 $topbar-height / 3;
           line-height: $topbar-height;
-          background: $topbar-bg;
+          background: transparent;
           &:hover { background: $topbar-link-bg-hover; }
         }
       }
